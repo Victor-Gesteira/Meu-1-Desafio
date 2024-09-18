@@ -37,14 +37,19 @@ function recebaNome(nome){
 recebaNome("Victor");
 //3°
 function tentnum(numero){
-    return numero * 2;
+    let numDobrado = numero * 2;
+    return numDobrado;
+    //ou return numero * 2; apenas.
+    
 }
 let rodavida = parseInt(Math.random() * 10 )
 let resultadoDobro = tentnum(rodavida);
 console.log(resultadoDobro);
 //4°
 function mediaDeTres(n1, n2, n3){
-    return (n1 + n2 + n3)/3;
+    let mediaTres = (n1 + n2 + n3)/3
+    return mediaTres;
+    // ou return (n1 + n2 + n3)/3; apenas
 }
 let ngmMePara = mediaDeTres(5, 5, 2);
 console.log(ngmMePara);
@@ -188,3 +193,11 @@ console.log(lista3Nomes[1]);
 console.log('6 : Sexto');
 
 console.log(lista3Nomes[2]);
+
+// teste
+let tentivaDeInput = 10;
+while(tentivaDeInput > 0){
+    listaGenerica.push(parseInt(Math.random()*10));
+    tentivaDeInput--;
+}
+console.log(listaGenerica);

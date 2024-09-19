@@ -175,6 +175,7 @@ console.log('3 : Terceiro');
 linguagensDeProgramacao.push('Java');
 linguagensDeProgramacao.push('Ruby');
 linguagensDeProgramacao.push('GoLang');
+linguagensDeProgramacao.push('C#');
 
 console.log(linguagensDeProgramacao);
 

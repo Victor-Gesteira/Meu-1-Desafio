@@ -8,7 +8,7 @@ function verificarConsole(){
 }
 
 function mensagemAlert(){
-    alert('Eu Amo JSS');
+    alert('Eu Amo JS');
 }
 
 function perguntaPrompt(){

@@ -8,7 +8,7 @@ function verificarConsole(){
 }
 
 function mensagemAlert(){
-    alert('Eu Amo JS e Agora?');
+    alert('Ta Díficil Cancelar esse Texto');
 }
 
 function perguntaPrompt(){
